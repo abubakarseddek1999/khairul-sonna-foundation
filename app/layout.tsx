@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-
+import icon from "../assets/logo/Round Shape Logo.jpg"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
@@ -22,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="bn">
+      <link rel="icon" href={icon.src} sizes="any" />
       <head>
         <script async src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <script
