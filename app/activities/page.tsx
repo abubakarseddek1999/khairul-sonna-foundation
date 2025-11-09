@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import floodrelief from "../../assets/activities/flood-relief.jpg"
+import helthActivityimg from "../../assets/activities/helthmeet.jpg"
 import primarymeetimg from "../../assets/opinion-meetimg/meet2.jpg"
 const activities = [
   {
@@ -16,7 +17,7 @@ const activities = [
     category: "স্বাস্থ্য কর্যক্রম",
     title: "স্বাস্থ্য সচেতনতা",
     description: "সাধারণ মানুষের মধ্যে স্বাস্থ্য সচেতনতা বৃদ্ধির জন্য বিভিন্ন কর্মসূচি।",
-    image: "/health-awareness.jpg",
+    image: helthActivityimg,
   },
   {
     id: 3,
