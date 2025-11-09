@@ -26,9 +26,9 @@ export function Header() {
           <Link href="/" className="text-foreground hover:text-primary transition">
             হোম
           </Link>
-          <Link href="/programs" className="text-foreground hover:text-primary transition">
+          {/* <Link href="/programs" className="text-foreground hover:text-primary transition">
             প্রোগ্রাম
-          </Link>
+          </Link> */}
           <Link href="/activities" className="text-foreground hover:text-primary transition">
             আমাদের কার্যক্রম
           </Link>
@@ -37,6 +37,9 @@ export function Header() {
           </Link>
           <Link href="/contact" className="text-foreground hover:text-primary transition">
             যোগাযোগ
+          </Link>
+          <Link href="/volunteer" className="text-foreground hover:text-primary transition">
+            স্বেচ্ছাসেবক হন
           </Link>
           <LanguageSwitcher />
           <Link href="/donate">
