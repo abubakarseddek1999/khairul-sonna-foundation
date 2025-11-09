@@ -1,7 +1,7 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
-
+import floodrelief from "../../assets/activities/flood-relief.jpg"
 const activities = [
   {
     id: 1,
@@ -43,7 +43,7 @@ const activities = [
     category: "দুর্যোগ ত্রাণ",
     title: "দুর্যোগ ত্রাণ",
     description: "প্রাকৃতিক দুর্যোগে ক্ষতিগ্রস্ত মানুষদের জন্য ত্রাণ কর্মসূচি।",
-    image: "/disaster-relief.jpg",
+    image: floodrelief,
   },
   {
     id: 7,

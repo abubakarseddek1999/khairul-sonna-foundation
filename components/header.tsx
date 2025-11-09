@@ -4,6 +4,11 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { LanguageSwitcher } from "./language-switcher"
+import logo from "../assets/logo/logo.png"
+import logo2 from "../assets/logo/logo-2.png"
+import Image from "next/image"
+import logoround from "../assets/logo/Round Shape Logo.jpg"
+
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,7 +18,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="font-bold text-2xl text-primary">
-          খাইরুল উম্মাহ ফাউন্ডেশন
+          <Image className="h-[60px] w-[250px]" src={logo} alt="Logo" width={100} height={100} />
         </Link>
 
         {/* Desktop Navigation */}
