@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { CheckCircle } from "lucide-react"
+import aboutimg from "../assets/opinion-meetimg/meet1.jpg"
 
 export function AboutContent() {
   const missionPoints = [
@@ -34,7 +35,7 @@ export function AboutContent() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative h-80 rounded-lg overflow-hidden">
-              <Image src="/foundation-team.jpg" alt="আমাদের সম্পর্কে" fill className="object-cover" />
+              <Image src={aboutimg} alt="আমাদের সম্পর্কে" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">খাইরুল উম্মাহ ফাউন্ডেশনের পরিচয়</h2>
