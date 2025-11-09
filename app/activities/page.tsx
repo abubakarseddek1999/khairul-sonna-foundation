@@ -2,13 +2,14 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import floodrelief from "../../assets/activities/flood-relief.jpg"
+import primarymeetimg from "../../assets/opinion-meetimg/meet2.jpg"
 const activities = [
   {
     id: 1,
     category: "শিক্ষা কর্যক্রম",
     title: "প্রাথমিক শিক্ষা কর্মসূচি",
     description: "গ্রামীণ এলাকার অসচেতন শিশুদের জন্য বিনামূল্যে প্রাথমিক শিক্ষা প্রদান করা হয়।",
-    image: "/primary-education.jpg",
+    image: primarymeetimg,
   },
   {
     id: 2,
@@ -71,14 +72,14 @@ const activities = [
     category: "সামাজিক কর্যক্রম",
     title: "পরিবার পরিকল্পনা",
     description: "পরিবার পরিকল্পনা এবং পরিবার সুরক্ষা কর্মসূচি।",
-    image: "/family-planning.jpg",
+    image: floodrelief,
   },
   {
     id: 11,
     category: "অন্যান্য",
     title: "দাতব্য কর্মসূচি",
     description: "বিভিন্ন দাতব্য কর্মসূচি এবং সামাজিক দায়বদ্ধতা প্রকল্প।",
-    image: "/charity-program.jpg",
+    image: primarymeetimg,
   },
 ]
 
