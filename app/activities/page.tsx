@@ -85,7 +85,6 @@ const activities = [
 export default function ActivitiesPage() {
   return (
     <>
-      <Header />
 
       {/* Page Header */}
       <div className="bg-primary text-primary-foreground py-12">
@@ -133,7 +132,7 @@ export default function ActivitiesPage() {
         </div>
       </main>
 
-      <Footer />
+ 
     </>
   )
 }

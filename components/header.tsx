@@ -41,7 +41,7 @@ export function Header() {
           <Link href="/volunteer" className="text-foreground hover:text-primary transition">
             স্বেচ্ছাসেবক হন
           </Link>
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
           <Link href="/donate">
             <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition">
               দান করুন
